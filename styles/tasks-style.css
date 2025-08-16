@@ -1,0 +1,68 @@
+body {
+    background: papayawhip;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 3.5rem;
+    margin-left:40px;
+    margin-bottom: 10px;
+}
+
+#addItem{
+    height:1.8rem;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border:1px solid rgb(121, 121, 121);
+    margin-left: 40px;
+}
+
+#addItemBtn {
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+    font-size: 1.1rem;
+}
+#addItemBtn:hover{
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn{
+    border-radius: 10px;
+    border:1px solid black;
+    padding: 5px;
+    width: 60px;
+}
+
+.delete-btn:hover{
+    background-color: rgb(49, 49, 49);
+    color:aliceblue;
+    cursor: pointer;
+}
+
+.task-list{
+    margin: 15px;
+}
+
+.logout-btn{
+    padding:6px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: blue;
+    color:aliceblue;
+    border-radius: 15px;
+    border: 1.5px solid rgb(0, 0, 0);
+    height:45px;
+    width: 80px;
+    margin-left: 39px;
+}
+
+.logout-btn:hover{
+    background: rgb(145, 145, 255);
+}
